@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="x@=05{k!E~yDdk%AJy=G">water</variable></variables><block type="device_forever" id="7ZV/?%rx^ue@CAR5KxUf" x="257" y="0"><statement name="HANDLER"><block type="variables_set" id="g%WSS5V9P4_EU?HLyR=V"><field name="VAR" id="x@=05{k!E~yDdk%AJy=G">water</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="OnDxD}v3GKMfVd~oVbKt"><field name="name">AnalogPin.P0</field></block></value></block></statement></block><block type="pxt-on-start" id="+e?o3VN|yphNHIIr(}#y" x="0" y="111"><statement name="HANDLER"><block type="variables_set" id="sJ]Lh$AcHg2K=:B[hxs]"><field name="VAR" id="x@=05{k!E~yDdk%AJy=G">water</field><value name="VALUE"><shadow type="math_number" id="0Nqw[;LkI6J2#A|M9H/3"><field name="NUM">0</field></shadow></value><next><block type="basic_show_icon" id="8lB+vl7CDJzt{T6M|Ovh"><field name="i">IconNames.Tortoise</field><next><block type="device_pause" id=".[-E:@f.]wZyGians=^D"><value name="pause"><shadow type="timePicker" id="m~fS$[PQ{zy~^26D`i,8"><field name="ms">500</field></shadow></value><next><block type="device_clear_display" id="BKwJ!-@v%lO_Tg~KWM|F"/></next></block></next></block></next></block></statement></block><block type="controls_if" id="ncNCt@:nR=1J?mVzdK=x" disabled="true" x="606" y="186"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="I)gp%[iDN}4MQ*Tr}|):"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="d|UfyuSzYE;{-%?IriDZ"><field name="VAR" id="x@=05{k!E~yDdk%AJy=G">water</field></block></value><value name="B"><shadow type="math_number" id="/7osH-FMPE;xe/b/GD7}"><field name="NUM">400</field></shadow></value></block></value><statement name="DO0"><block type="game_pause" id="yA`~*X1;SW3Et$A~?Mta"><next><block type="device_show_leds" id="s2f0BJ*e[NXvPZ{Y]mqC"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="game_start_countdown" id="Or!xfLC!,;p}QRi_@BY3"><value name="duration"><shadow type="math_number" id="xWF7#+b-*hFJ0n?02$%l"><field name="NUM">10000</field></shadow></value><next><block type="device_show_leds" id="9Zed!WKc,/~K.QTUdB!~"><field name="LEDS">`
+        # # . . . 
+        # # # # . 
+        # # # # # 
+        # # # # . 
+        # # . . .
+        `</field></block></next></block></statement></block><block type="device_show_leds" id="V1}m@/WVl=`@7t#oN^mg" disabled="true" x="64" y="440"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # .
+        `</field></block><block type="game_ispaused" id="V9.d$q~W}UpQZIOwHdFn" disabled="true" x="383" y="482"/></xml>
